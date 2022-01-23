@@ -16,7 +16,7 @@ export function Main() {
           </p>
           <button className="btn">Call To Action</button>
         </div>
-        <div className="side-by-side-item1">
+        <div className="side-by-side-item">
           <div className="container">
             <div className="small"></div>
             <div className="medium"></div>
