@@ -1,0 +1,28 @@
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.para {
+  border-left: 3px solid #69696a;
+  color: #69696a;
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 0;
+}
+
+.about-parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container.side-by-side-item {
+  margin-top: 120px;
+}
+
+.about-container {
+  display: inline-block;
+  position: relative;
+}

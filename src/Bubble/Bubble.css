@@ -1,0 +1,42 @@
+.container {
+  padding-right: 43px;
+}
+
+.large {
+  border-radius: 50%;
+  width: 185px;
+  height: 185px;
+  position: relative;
+  top: -60px;
+  left: -10px;
+  bottom: 40px;
+  background-color: rgba(247, 136, 167, 0.6);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.medium {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 190px;
+  left: 55px;
+  background-color: rgba(247, 193, 162, 0.7);
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.small {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 230px;
+  left: 80px;
+  background-color: rgba(207, 130, 213, 0.6);
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}

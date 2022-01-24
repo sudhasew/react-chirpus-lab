@@ -1,5 +1,6 @@
 import "./Main.css";
-
+import Button from "../Button/Button";
+import Bubble from "../Bubble/Bubble";
 export function Main() {
   return (
     <main>
@@ -14,15 +15,9 @@ export function Main() {
             sunt,delectus a optio magni dolorum eligendi sapiente ut ab,
             dignissimos aliquam.
           </p>
-          <button className="btn">Call To Action</button>
+          <Button></Button>
         </div>
-        <div className="side-by-side-item">
-          <div className="container">
-            <div className="small"></div>
-            <div className="medium"></div>
-            <div className="large"></div>
-          </div>
-        </div>
+        <Bubble></Bubble>
       </section>
     </main>
   );
